@@ -1,33 +1,37 @@
 # Conversational-AI-System-using-Open-Source-LLMs (LangChain-Ollama/groq)
 
+🚀 <b>Conversational AI System using Open-Source LLMs </b>
+
+(LangChain + Ollama / Groq)
+
 This project is a lightweight, modular Conversational AI system built using open-source Large Language Models (LLMs). It leverages LangChain for orchestration and supports both local inference via Ollama and ultra-fast cloud inference via Groq.
 
 The system is designed to be flexible, efficient, and developer-friendly, making it ideal for building chatbots, assistants, and AI-powered applications without relying on proprietary models.
 
-<b> Features </b>
+✨ <b>Features </b>
 
-💬 Natural Conversational Interface
+💬 <b>Natural Conversational Interface </b>
 Context-aware multi-turn conversations
 
-🔗 LangChain Integration
+🔗 <b>LangChain Integration </b>
 Prompt management, memory handling, and chaining capabilities
 
-⚡ Dual Inference Support
+⚡ <b>Dual Inference Support </b>
 
 Ollama → Run LLMs locally (privacy-focused)
 
 Groq → High-speed inference using LPU acceleration
 
-🧠 Conversation Memory
+🧠 <b>Conversation Memory </b>
 Maintains chat history for better contextual responses
 
-🔌 Modular Design
+🔌 <b>Modular Design </b>
 Easily plug in different LLMs (LLaMA, Mistral, Qwen, etc.)
 
-🌐 Streamlit UI (Optional)
+🌐 <b>Streamlit UI (Optional) </b>
 Simple and interactive frontend for real-time chatting
 
-🛠️ Tech Stack
+🛠️ <b>Tech Stack </b>
 
 Python
 
@@ -39,7 +43,7 @@ Groq API (fast inference)
 
 Streamlit (UI)
 
-📌 Use Cases
+📌 <b>Use Cases </b>
 
 AI Chatbots
 
@@ -51,7 +55,7 @@ LLM Experimentation Playground
 
 Educational AI Tools
 
-⚙️ How It Works
+⚙️ <b>How It Works </b>
 
 User input is captured via CLI or Streamlit UI
 
@@ -65,7 +69,7 @@ Groq-hosted model for fast responses
 
 Response is generated and returned with conversation memory
 
-🎯 Goals
+🎯 <b>Goals </b>
 
 Provide a fully open-source alternative to closed AI systems
 
