@@ -4,7 +4,7 @@ This project is a lightweight, modular Conversational AI system built using open
 
 The system is designed to be flexible, efficient, and developer-friendly, making it ideal for building chatbots, assistants, and AI-powered applications without relying on proprietary models.
 
-✨ Features
+<b> Features </b>
 
 💬 Natural Conversational Interface
 Context-aware multi-turn conversations
