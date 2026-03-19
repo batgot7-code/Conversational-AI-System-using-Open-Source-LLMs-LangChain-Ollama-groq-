@@ -4,9 +4,11 @@
 
 (LangChain + Ollama / Groq)
 
-This project is a lightweight, modular Conversational AI system built using open-source Large Language Models (LLMs). It leverages LangChain for orchestration and supports both local inference via Ollama and ultra-fast cloud inference via Groq.
+This project is a lightweight, modular, powerful and flexible Conversational AI system built using open-source Large Language Models (LLMs). It leverages LangChain for orchestration and supports both local inference via Ollama and ultra-fast cloud inference via Groq.
 
 The system is designed to be flexible, efficient, and developer-friendly, making it ideal for building chatbots, assistants, and AI-powered applications without relying on proprietary models.
+
+A key highlight of this system is its browser access capability, enabling the AI to retrieve real-time, up-to-date information from the web, overcoming the static knowledge limitations of traditional LLMs.
 
 <b>FEATURES </b>
 
@@ -21,6 +23,9 @@ Prompt management, memory handling, and chaining capabilities
 Ollama → Run LLMs locally (privacy-focused)
 
 Groq → High-speed inference using LPU acceleration
+
+<b>BROWSER ACCESS (LIVE WEB RETREIVAL) </b>
+Fetches latest information from the internet for accurate, real-time responses
 
 <b>MODULAR DESIGN </b>
 Easily plug in different LLMs (LLaMA, Mistral, Qwen, etc.)
