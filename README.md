@@ -13,9 +13,11 @@ A key highlight of this system is its browser access capability, enabling the AI
 <b>FEATURES </b>
 
 <b>NATURAL CONVERSATIONAL INTERFACE </b>
+
 Context-aware multi-turn conversations
 
 <b>LANGCHAIN INTEGRATION </b>
+
 Prompt management, memory handling, and chaining capabilities
 
 <b>DUAL INFERENCE SUPPORT </b>
@@ -25,12 +27,15 @@ Ollama → Run LLMs locally (privacy-focused)
 Groq → High-speed inference using LPU acceleration
 
 <b>BROWSER ACCESS (LIVE WEB RETREIVAL) </b>
+
 Fetches latest information from the internet for accurate, real-time responses
 
 <b>MODULAR DESIGN </b>
+
 Easily plug in different LLMs (LLaMA, Mistral, Qwen, etc.)
 
 <b>STREAMLIT UI (FAST AND INTERACTIVE) </b>
+
 Simple and interactive frontend for real-time chatting
 
 <b>TECH STACK </b>
