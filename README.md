@@ -1,9 +1,5 @@
 # Conversational-AI-System-using-Open-Source-LLMs (LangChain-Ollama/groq)
 
-🚀 Conversational AI System using Open-Source LLMs
-
-(LangChain + Ollama / Groq)
-
 This project is a lightweight, modular Conversational AI system built using open-source Large Language Models (LLMs). It leverages LangChain for orchestration and supports both local inference via Ollama and ultra-fast cloud inference via Groq.
 
 The system is designed to be flexible, efficient, and developer-friendly, making it ideal for building chatbots, assistants, and AI-powered applications without relying on proprietary models.
