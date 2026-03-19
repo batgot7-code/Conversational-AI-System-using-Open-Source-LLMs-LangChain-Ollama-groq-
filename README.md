@@ -45,6 +45,8 @@ Groq API (fast inference)
 
 Streamlit (UI)
 
+Web Browsing Tools (for real-time data) -> DUCK DUCK GO
+
 <b>USE CASES </b>
 
 AI Chatbots
