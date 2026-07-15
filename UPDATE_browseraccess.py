@@ -4,12 +4,25 @@ from langchain_community.tools import DuckDuckGoSearchRun
 
 search = DuckDuckGoSearchRun()
 
-llm = ChatGroq(
-    temperature=0,
-    groq_api_key = 'PLEASE ENTER YOUR API KEY, I CAN\'SHARE MINE',
-    model="llama-3.1-8b-instant"
-    
+models = {
+    "Llama 3.1 8B Instant": "llama-3.1-8b-instant",
+    "Llama 3.3 70B Versatile": "llama-3.3-70b-versatile",
+    "Gemma 2 9B": "gemma2-9b-it",
+    "DeepSeek R1 Distill Llama 70B": "deepseek-r1-distill-llama-70b",
+    "Qwen QWQ 32B": "qwen-qwq-32b"
+}
+
+selected_model = st.sidebar.selectbox(
+    "🤖 Select AI Model",
+    list(models.keys())
 )
+
+llm = ChatGroq(
+    model=models[selected_model],
+    temperature=0,
+    groq_api_key="YOUR_GROQ_API_KEY"
+)
+st.sidebar.success(f"Current Model:\n\n{models[selected_model]}")
 
 prompt = st.text_area('Ask Anything: ')
 
