@@ -3,3 +3,5 @@ langchain_community
 streamlit  
 groq
 duckduckgo search==8.1.1
+pip install -U ddgs
+pip install langchain langchain-groq
